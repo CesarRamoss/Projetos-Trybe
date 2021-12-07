@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Syne', sans-serif;
+  color: #222;
+}
+body {
+  background-color: #d8e2dc;
+}
+main {
+  position: absolute;
+  width: 345px;
+  top: 75px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+#funcionamento {
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+input {
+  width: 345px;
+  height: 25px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+#lista-tarefas li {
+  margin-left: 20px;
+}
+.p-botoes,
+.u-botoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #bc6c25;
+  color: #fefae0;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 2px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid white;
+}
+button:hover {
+  border: 1px solid #222;
+}
+#mover-cima,
+#mover-baixo {
+  margin-right: 10px;
+  width: 40px;
+}
+
+.fundocinza {
+  background-color: rgb(128, 128, 128);
+}
+.completed {
+  text-decoration: line-through solid rgb(0, 0, 0);
+}
